@@ -1,61 +1,34 @@
 <html lang="en">
+<head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>UMHC 2026 - Welcome</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
-<style>
-body {
-margin: 0;
-font-family: 'Roboto', sans-serif;
-background-color: #F4F4F4;
-color: #4D4F53;
-}
-.container {
-max-width: 800px;
-margin: 5% auto;
-padding: 2em;
-background: #ffffff;
-border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-h1 {
-font-family: 'Crimson Text', serif;
-color: #004165;
-text-align: center;
-}
-p {
-font-size: 1.1em;
-line-height: 1.6;
-margin-top: 1em;
-}
-.button {
-display: block;
-width: max-content;
-margin: 2em auto 0;
-background-color: #004165;
-color: white;
-padding: 0.8em 1.5em;
-border: none;
-border-radius: 4px;
-text-decoration: none;
-font-size: 1em;
-transition: background-color 0.3s;
-}
-.button:hover {
-background-color: #003654;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>UMHC 2026 – Welcome</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<nav>
+<h1>UMHC 2026</h1>
+<ul>
+<li><a href="welcome.html">Home</a></li>
+<li><a href="form.html">Submission</a></li>
+<li><a href="#map">Map</a></li>
+</ul>
+</nav>
+
+
 <div class="container">
-<h1>Welcome to the Upper Midwest Honors Conference 2026</h1>
+<h2>Welcome to the Upper Midwest Honors Conference 2026</h2>
 <p>
-We are pleased to invite submissions for the 2026 Upper Midwest Honors Conference hosted at Dakota State University. This year’s theme encourages academic exploration and interdisciplinary collaboration.
+We are pleased to invite students, faculty, and staff to present at the 2026 Upper Midwest Honors Conference hosted at Dakota State University. Submit proposals for papers, posters, workshops, or roundtables below.
 </p>
-<p>
-If you are a student, faculty, or staff member interested in presenting a paper, poster, workshop, or roundtable, please proceed to the proposal submission form.
-</p>
-<a href="form.html" class="button">Submit Your Proposal</a>
+<a href="form.html" class="btn">Go to Submission Form</a>
+</div>
+
+
+<div class="container" id="map">
+<h2>Visit Us in Madison, South Dakota</h2>
+<iframe src="https://www.google.com/maps?q=Madison+South+Dakota&output=embed" allowfullscreen loading="lazy" title="Map to Madison, South Dakota"></iframe>
 </div>
 </body>
 </html>
